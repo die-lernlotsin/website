@@ -1,0 +1,62 @@
+/* .hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+} */
+.hero {
+  margin-top: 100px; /* offset for fixed header */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  aspect-ratio: 2.5;
+  background-image: url("../images/Titel_gelb.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #f6d36a;
+  border-radius: 10px;
+}
+/* .homepage .hero {
+  background-image: url("../images/Titel_gelb.png");
+}
+.about .hero {
+  background-image: url("../images/Titel_gelb.png");
+}
+.lerntherapie .hero {
+  background-image: url("../images/Titel_gelb.png");
+}
+.kontakt .hero {
+  background-image: url("../images/Titel_gelb.png");
+} */
+
+/* .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Text layer */
+/* .hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+  max-width: 1000px;
+  padding: 2rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  .hero {
+    background-attachment: initial;
+  }
+}
